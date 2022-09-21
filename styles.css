@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+main {
+    color: white;
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+
+    display: grid;
+    gap: 24px;
+}
+
+.hobbies img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #443E54;
+}
+
+section div {
+    text-align: center;
+    background-color: black ;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section div p {
+    text-align: left;
+}
+
+section div li {
+    text-align: left;
+}
